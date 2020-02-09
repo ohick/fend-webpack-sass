@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { askWeather } from './js/askWeather'
 
 import './styles/base.scss';
 import './styles/footer.scss';
@@ -9,5 +10,6 @@ import './styles/resets.scss';
 
 export {
     handleSubmit,
-    checkForName
+    checkForName,
+    askWeather
 };

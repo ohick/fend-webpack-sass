@@ -1,3 +1,4 @@
+
 function handleSubmit(event) {
     event.preventDefault()
 
@@ -12,7 +13,8 @@ function handleSubmit(event) {
     })
     .then(function(data) {
         document.getElementById('results').innerHTML = data.message
-    })
+    });
+    Client.askWeather();
 }
 
 export { handleSubmit }
